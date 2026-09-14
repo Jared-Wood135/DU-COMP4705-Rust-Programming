@@ -3,3 +3,12 @@
 
 # Ignore any templating files
 /template*
+
+# Ignore LaTeX compilation files to reduce clutter in repository
+/Notes/notes.aux
+/Notes/notes.fdb_latexmk
+/Notes/notes.fls
+/Notes/notes.log
+/Notes/notes.out
+/Notes/notes.synctex.gz
+/Notes/notes.toc
