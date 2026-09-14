@@ -1,0 +1,12 @@
+- `rustup update`
+    - Updates Rust (Updates are approx. every 6 weeks)
+- `cargo new <filename>`
+    - Creates a new Rust folder with <filename>
+- While in Rust folder... `cargo run`
+    - Runs the Rust folder
+
+- `cargo build --release`
+	- 
+- `cargo run`
+- `cargo check`
+- `cargo test`
