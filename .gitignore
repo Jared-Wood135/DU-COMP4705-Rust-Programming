@@ -1,0 +1,5 @@
+# Ignore all lecture uploads from class
+/Lectures
+
+# Ignore any templating files
+/template*
