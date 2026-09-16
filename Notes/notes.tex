@@ -9,11 +9,13 @@
 \usepackage{titlesec}
 \usepackage{courier}
 \usepackage{pdfpages}
-\usepackage{minted} % optional, requires --shell-escape
+\usepackage{minted}
 \usepackage{caption}
-\usepackage{xurl} % Allows URLs to break anywhere
-\usepackage[hidelinks]{hyperref} % Clickable links without the ugly boxes
-\urlstyle{same} % Makes URL font match the surrounding text (MLA style)
+\usepackage{xurl}
+\usepackage[hidelinks]{hyperref}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\urlstyle{same}
 
 
 \title{COMP4705 - Notes}
@@ -89,6 +91,28 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % END PAGE BUFFER
+% START Useful Commands
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Page Header
+\newpage
+\section{Useful Commands}
+
+\begin{tabularx}{\textwidth}{X | X}
+  \toprule
+  Code Snippet & Explanation \\
+  \midrule
+  rustup update & Updates Rust (Updates are approx. done every 6 weeks) \\
+  cargo new (filename) & Creates a new Rust folder with (filename) \\
+  cargo run & Runs the Rust folder \\
+  cargo build --release & Ignores compile errors and runs the program \\
+  cargo test & Runs thes tests for the Rust folder \\
+  (Some Variable).clone() & Deep copies variable \\
+  \bottomrule
+\end{tabularx}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% END Useful Commands
 % START Week 1
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -97,7 +121,27 @@
 \section{Week 1}
 
 % Page Contents
-\subsection{Placeholder}
+\subsection{General Notes}
+\begin{itemize}
+  \item Rust is a very safe language where generally every variable by default is non-mutable and\
+    must explicitly allow mutability.  This also includes runtime panics where if variables are\
+    not used, then the program will panic
+  \item Variable ownership is important and will cause a program to panic if it is not handled.  \
+    Generally, passing a variable into a function will need to return this variable back out for\
+    original variable to be recreated.
+  \item Pertaining to Rust's borrowing of variables and parameters:
+  \begin{itemize}
+    \item C Approach:
+    \begin{itemize}
+      \item 
+    \end{itemize}
+    \item Rust Approach:
+    \begin{itemize}
+      \item 
+    \end{itemize}
+  \end{itemize}
+\end{itemize}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % END Week 1
 % START Week 2
@@ -108,7 +152,10 @@
 \section{Week 2}
 
 % Page Contents
-\subsection{Placeholder}
+\subsection{General Notes}
+\begin{itemize}
+  \item 
+\end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % END Week 2
