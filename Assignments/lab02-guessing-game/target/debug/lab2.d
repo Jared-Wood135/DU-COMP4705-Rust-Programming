@@ -1,1 +1,0 @@
-/Users/manupfool/Desktop/University_of_Denver/inprogress_courses/COMP3705/Assignments/lab02-guessing-game/target/debug/lab2: /Users/manupfool/Desktop/University_of_Denver/inprogress_courses/COMP3705/Assignments/lab02-guessing-game/src/main.rs
