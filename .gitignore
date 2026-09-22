@@ -4,6 +4,9 @@
 # Ignore any templating files
 /template*
 
+# Ignore /target files
+/target
+
 # Ignore LaTeX compilation files to reduce clutter in repository
 /Notes/notes.aux
 /Notes/notes.fdb_latexmk
