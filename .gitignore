@@ -1,11 +1,11 @@
 # Ignore all lecture uploads from class
-/Lectures
+Lectures/
 
 # Ignore any templating files
-/template*
+template*/
 
 # Ignore /target files
-/target
+target/
 
 # Ignore LaTeX compilation files to reduce clutter in repository
 /Notes/notes.aux
