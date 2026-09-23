@@ -1,1 +1,0 @@
-/Users/manupfool/Desktop/University_of_Denver/inprogress_courses/COMP3705/Assignments/homework05-strings/target/debug/homework05-strings: /Users/manupfool/Desktop/University_of_Denver/inprogress_courses/COMP3705/Assignments/homework05-strings/src/main.rs
