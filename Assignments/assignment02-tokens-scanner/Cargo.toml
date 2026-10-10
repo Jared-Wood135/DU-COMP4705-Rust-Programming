@@ -1,0 +1,10 @@
+[package]
+name = "assignment02-tokens-scanner"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "scanner"
+path = "src/scanner.rs"
+
+[dependencies]
