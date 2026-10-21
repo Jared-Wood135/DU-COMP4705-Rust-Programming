@@ -1,0 +1,16 @@
+// Welcome to the bug hotel, where bugs are features!
+var caffeine_level = 99.9;
+var is_awake = false;
+
+if (caffeine_level > 50.0) {
+    is_awake = true;
+    print "Coffee power activated!";
+} else {
+    print "System crashing... need espresso immediately.";
+}
+
+var mystery_bug = nil;
+
+if (mystery_bug != true) {
+    print "It is not true, just a ghost in the machine.";
+}

@@ -1,0 +1,19 @@
+[package]
+name = "assignment03-parsing-math"
+version = "0.1.0"
+edition = "2024"
+default-run = "parser"
+
+[[bin]]
+name = "expr"
+path = "src/expr.rs"
+
+[[bin]]
+name = "scanner"
+path = "src/scanner.rs"
+
+[[bin]]
+name = "parser"
+path = "src/parser.rs"
+
+[dependencies]
