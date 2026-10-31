@@ -1,0 +1,6 @@
+[package]
+name = "homework09-filter"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
