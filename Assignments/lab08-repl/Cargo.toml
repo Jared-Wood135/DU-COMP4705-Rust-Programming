@@ -1,0 +1,23 @@
+[package]
+name = "lab08-repl"
+version = "0.1.0"
+edition = "2024"
+default-run = "main"
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
+
+[[bin]]
+name = "expr"
+path = "src/expr.rs"
+
+[[bin]]
+name = "scanner"
+path = "src/scanner.rs"
+
+[[bin]]
+name = "parser"
+path = "src/parser.rs"
+
+[dependencies]
